@@ -24,7 +24,7 @@ class Pause(AAZCommand):
     _aaz_info = {
         "version": "2025-10-31-preview",
         "resources": [
-            ["mgmt-plane", "/subscriptions/{}/resourcegroups/{}/providers/microsoft.cleanroom/consortiums/{}/pause", "2025-10-31-preview"],
+            ["mgmt-plane", "/subscriptions/{}/resourcegroups/{}/providers/private.cleanroom/consortiums/{}/pause", "2025-10-31-preview"],
         ]
     }
 

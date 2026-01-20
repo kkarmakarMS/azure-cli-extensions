@@ -106,7 +106,7 @@ class Resume(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CleanRoom/consortiums/{consortiumName}/resume",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/consortiums/{consortiumName}/resume",
                 **self.url_parameters
             )
 

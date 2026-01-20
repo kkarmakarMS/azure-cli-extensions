@@ -106,7 +106,7 @@ class Pause(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CleanRoom/consortiums/{consortiumName}/pause",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/consortiums/{consortiumName}/pause",
                 **self.url_parameters
             )
 

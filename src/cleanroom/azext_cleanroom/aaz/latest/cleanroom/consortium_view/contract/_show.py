@@ -98,7 +98,7 @@ class Show(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CleanRoom/consortiumViews/{consortiumViewName}/contracts/{contractName}",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/consortiumViews/{consortiumViewName}/contracts/{contractName}",
                 **self.url_parameters
             )
 

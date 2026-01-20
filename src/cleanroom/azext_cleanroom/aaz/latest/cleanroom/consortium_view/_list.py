@@ -86,7 +86,7 @@ class List(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/providers/Microsoft.CleanRoom/consortiumViews",
+                "/subscriptions/{subscriptionId}/providers/Private.CleanRoom/consortiumViews",
                 **self.url_parameters
             )
 
@@ -247,7 +247,7 @@ class List(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CleanRoom/consortiumViews",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/consortiumViews",
                 **self.url_parameters
             )
 

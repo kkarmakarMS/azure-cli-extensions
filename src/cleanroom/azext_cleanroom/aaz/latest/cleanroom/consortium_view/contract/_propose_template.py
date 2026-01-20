@@ -115,7 +115,7 @@ class ProposeTemplate(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CleanRoom/consortiumViews/{consortiumViewName}/contracts/{contractName}/proposeTemplate",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/consortiumViews/{consortiumViewName}/contracts/{contractName}/proposeTemplate",
                 **self.url_parameters
             )
 

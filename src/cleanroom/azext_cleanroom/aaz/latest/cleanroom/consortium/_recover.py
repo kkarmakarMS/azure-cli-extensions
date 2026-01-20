@@ -116,7 +116,7 @@ class Recover(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CleanRoom/consortiums/{consortiumName}/recover",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/consortiums/{consortiumName}/recover",
                 **self.url_parameters
             )
 

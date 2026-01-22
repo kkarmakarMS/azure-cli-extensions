@@ -10,6 +10,8 @@
 
 from azure.cli.core.aaz import *
 
+from ..private_endpoint_util import PrivateEndpointUtil
+
 
 @register_command(
     "cleanroom consortium-view delete",
@@ -112,7 +114,7 @@ class Delete(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/consortiumViews/{consortiumViewName}",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/" + PrivateEndpointUtil.get_configured_namespace() + "/consortiumViews/{consortiumViewName}",
                 **self.url_parameters
             )
 

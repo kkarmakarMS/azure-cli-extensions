@@ -10,6 +10,8 @@
 
 from azure.cli.core.aaz import *
 
+from ..private_endpoint_util import PrivateEndpointUtil
+
 
 @register_command(
     "cleanroom collaboration resume",
@@ -106,7 +108,7 @@ class Resume(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/collaborations/{collaborationName}/resume",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/" + PrivateEndpointUtil.get_configured_namespace() + "/collaborations/{collaborationName}/resume",
                 **self.url_parameters
             )
 

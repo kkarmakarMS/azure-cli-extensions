@@ -10,6 +10,8 @@
 
 from azure.cli.core.aaz import *
 
+from ..private_endpoint_util import PrivateEndpointUtil
+
 
 @register_command(
     "cleanroom consortium update",
@@ -160,7 +162,7 @@ class Update(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/consortiums/{consortiumName}",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/" + PrivateEndpointUtil.get_configured_namespace() + "/consortiums/{consortiumName}",
                 **self.url_parameters
             )
 
@@ -259,7 +261,7 @@ class Update(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/consortiums/{consortiumName}",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/" + PrivateEndpointUtil.get_configured_namespace() + "/consortiums/{consortiumName}",
                 **self.url_parameters
             )
 

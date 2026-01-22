@@ -10,6 +10,8 @@
 
 from azure.cli.core.aaz import *
 
+from ..private_endpoint_util import PrivateEndpointUtil
+
 
 @register_command(
     "cleanroom collaboration add-collaborator",
@@ -116,7 +118,7 @@ class AddCollaborator(AAZCommand):
         @property
         def url(self):
             return self.client.format_url(
-                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Private.CleanRoom/collaborations/{collaborationName}/addCollaborator",
+                "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/" + PrivateEndpointUtil.get_configured_namespace() + "/collaborations/{collaborationName}/addCollaborator",
                 **self.url_parameters
             )
 

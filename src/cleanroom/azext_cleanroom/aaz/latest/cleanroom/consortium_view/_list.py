@@ -24,8 +24,8 @@ class List(AAZCommand):
     _aaz_info = {
         "version": "2025-10-31-preview",
         "resources": [
-            ["mgmt-plane", "/subscriptions/{}/providers/private.cleanroom/consortiumviews", "2025-10-31-preview"],
-            ["mgmt-plane", "/subscriptions/{}/resourcegroups/{}/providers/private.cleanroom/consortiumviews", "2025-10-31-preview"],
+            ["mgmt-plane", "/subscriptions/{}/providers/microsoft.cleanroom/consortiumviews", "2025-10-31-preview"],
+            ["mgmt-plane", "/subscriptions/{}/resourcegroups/{}/providers/microsoft.cleanroom/consortiumviews", "2025-10-31-preview"],
         ]
     }
 

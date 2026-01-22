@@ -24,7 +24,7 @@ class Create(AAZCommand):
     _aaz_info = {
         "version": "2025-10-31-preview",
         "resources": [
-            ["mgmt-plane", "/subscriptions/{}/resourcegroups/{}/providers/private.cleanroom/consortiums/{}", "2025-10-31-preview"],
+            ["mgmt-plane", "/subscriptions/{}/resourcegroups/{}/providers/microsoft.cleanroom/consortiums/{}", "2025-10-31-preview"],
         ]
     }
 

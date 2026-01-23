@@ -10,4 +10,9 @@
 
 
 def load_arguments(self, _):  # pylint: disable=unused-argument
-    pass
+    with self.argument_context('cleanroom frontend collaboration contract list') as c:
+        c.argument('collaboration_name', type=str, required=True, help='The name of the collaboration.')
+    
+    with self.argument_context('cleanroom frontend collaboration contract show') as c:
+        c.argument('collaboration_name', type=str, required=True, help='The name of the collaboration.')
+        c.argument('contract_name', type=str, required=True, help='The name of the contract.')

@@ -12,4 +12,6 @@
 
 
 def load_command_table(self, _):  # pylint: disable=unused-argument
-    pass
+    with self.command_group('cleanroom frontend collaboration contract') as g:
+        g.custom_command('list', 'collaboration_contract_list')
+        g.custom_command('show', 'collaboration_contract_show')

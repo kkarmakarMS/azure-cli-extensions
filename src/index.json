@@ -2284,6 +2284,60 @@
                     "version": "1.0.0b15"
                 },
                 "sha256Digest": "8288579a3d44b3de613c613bd1548a462bc5615443a004ce5cb9d828e70f3f6f"
+            },
+            {
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/aks_agent-1.0.0b16-py2.py3-none-any.whl",
+                "filename": "aks_agent-1.0.0b16-py2.py3-none-any.whl",
+                "metadata": {
+                    "azext.isPreview": true,
+                    "azext.minCliCoreVersion": "2.76.0",
+                    "classifiers": [
+                        "Development Status :: 4 - Beta",
+                        "Intended Audience :: Developers",
+                        "Intended Audience :: System Administrators",
+                        "Programming Language :: Python",
+                        "Programming Language :: Python :: 3",
+                        "Programming Language :: Python :: 3.6",
+                        "Programming Language :: Python :: 3.7",
+                        "Programming Language :: Python :: 3.8",
+                        "License :: OSI Approved :: MIT License"
+                    ],
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "azpycli@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/Azure/azure-cli-extensions/tree/main/src/aks-agent"
+                            }
+                        }
+                    },
+                    "extras": [],
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "aks-agent",
+                    "run_requires": [
+                        {
+                            "requires": [
+                                "kubernetes (==24.2.0)",
+                                "kubernetes==24.2.0",
+                                "rich (==13.9.4)",
+                                "rich==13.9.4"
+                            ]
+                        }
+                    ],
+                    "summary": "Provides an interactive AI-powered debugging tool for AKS",
+                    "version": "1.0.0b16"
+                },
+                "sha256Digest": "4fb547e0a67c8aaef20b79671712079b0dfe0f0207db72f5741d5d820a3cb59a"
             }
         ],
         "aks-preview": [
@@ -28434,6 +28488,49 @@
                     "version": "1.0.0b1"
                 },
                 "sha256Digest": "d31fe0433fa30a6e009f7b9bee6c417a686ed87502dd987b9ac8ad113383915b"
+            },
+            {
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/automation-1.0.0b2-py3-none-any.whl",
+                "filename": "automation-1.0.0b2-py3-none-any.whl",
+                "metadata": {
+                    "azext.isPreview": true,
+                    "azext.minCliCoreVersion": "2.75.0",
+                    "classifiers": [
+                        "Development Status :: 4 - Beta",
+                        "Intended Audience :: Developers",
+                        "Intended Audience :: System Administrators",
+                        "Programming Language :: Python",
+                        "Programming Language :: Python :: 3",
+                        "Programming Language :: Python :: 3.6",
+                        "Programming Language :: Python :: 3.7",
+                        "Programming Language :: Python :: 3.8",
+                        "License :: OSI Approved :: MIT License"
+                    ],
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "azpycli@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/Azure/azure-cli-extensions/tree/main/src/automation"
+                            }
+                        }
+                    },
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "automation",
+                    "summary": "Microsoft Azure Command-Line Tools AutomationClient Extension",
+                    "version": "1.0.0b2"
+                },
+                "sha256Digest": "b1d934b8db505fac818846e8cb0344f0502b798d690628a66a1d0f7660834588"
             }
         ],
         "azure-cli-ml": [

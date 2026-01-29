@@ -2338,6 +2338,60 @@
                     "version": "1.0.0b16"
                 },
                 "sha256Digest": "4fb547e0a67c8aaef20b79671712079b0dfe0f0207db72f5741d5d820a3cb59a"
+            },
+            {
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/aks_agent-1.0.0b17-py2.py3-none-any.whl",
+                "filename": "aks_agent-1.0.0b17-py2.py3-none-any.whl",
+                "metadata": {
+                    "azext.isPreview": true,
+                    "azext.minCliCoreVersion": "2.76.0",
+                    "classifiers": [
+                        "Development Status :: 4 - Beta",
+                        "Intended Audience :: Developers",
+                        "Intended Audience :: System Administrators",
+                        "Programming Language :: Python",
+                        "Programming Language :: Python :: 3",
+                        "Programming Language :: Python :: 3.6",
+                        "Programming Language :: Python :: 3.7",
+                        "Programming Language :: Python :: 3.8",
+                        "License :: OSI Approved :: MIT License"
+                    ],
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "azpycli@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/Azure/azure-cli-extensions/tree/main/src/aks-agent"
+                            }
+                        }
+                    },
+                    "extras": [],
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "aks-agent",
+                    "run_requires": [
+                        {
+                            "requires": [
+                                "kubernetes (==24.2.0)",
+                                "kubernetes==24.2.0",
+                                "rich (==13.9.4)",
+                                "rich==13.9.4"
+                            ]
+                        }
+                    ],
+                    "summary": "Provides an interactive AI-powered debugging tool for AKS",
+                    "version": "1.0.0b17"
+                },
+                "sha256Digest": "4adcbf636c1bd4ee790cd61ee365e04aa6fc542d23c3759d35dbc215ee5a0066"
             }
         ],
         "aks-preview": [
@@ -28535,7 +28589,7 @@
         ],
         "azure-cli-ml": [
             {
-                "downloadUrl": "https://azurecliext.blob.core.windows.net/release/azure_cli_ml-1.41.0-py3-none-any.whl",
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/azure_cli_ml-1.41.0-py3-none-any.whl",
                 "filename": "azure_cli_ml-1.41.0-py3-none-any.whl",
                 "metadata": {
                     "azext.minCliCoreVersion": "2.3.1",
@@ -28603,7 +28657,7 @@
                 "sha256Digest": "c3c5d2bb5ecd63d0d416bf9bc61b9f12df247d2f558957047ffc431e42fcb6b0"
             },
             {
-                "downloadUrl": "https://azurecliext.blob.core.windows.net/release/azure_cli_ml-1.37.0-py3-none-any.whl",
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/azure_cli_ml-1.37.0-py3-none-any.whl",
                 "filename": "azure_cli_ml-1.37.0-py3-none-any.whl",
                 "metadata": {
                     "azext.minCliCoreVersion": "2.3.1",
@@ -28671,7 +28725,7 @@
                 "sha256Digest": "7dc527ad16592a775d79341d7711df31497b66bf616010890bd1f8831c81012d"
             },
             {
-                "downloadUrl": "https://azurecliext.blob.core.windows.net/release/azure_cli_ml-1.5.0-py2.py3-none-any.whl",
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/azure_cli_ml-1.5.0-py2.py3-none-any.whl",
                 "filename": "azure_cli_ml-1.5.0-py2.py3-none-any.whl",
                 "metadata": {
                     "azext.maxCliCoreVersion": "2.29.2",
@@ -106116,6 +106170,48 @@
                     "version": "1.2.0"
                 },
                 "sha256Digest": "8c86765935c778adbe0de04e7d4f2d28de5a6d70113f30eee3960fe6748dcd70"
+            },
+            {
+                "downloadUrl": "https://azcliprod.blob.core.windows.net/cli-extensions/storage_mover-1.2.1-py3-none-any.whl",
+                "filename": "storage_mover-1.2.1-py3-none-any.whl",
+                "metadata": {
+                    "azext.minCliCoreVersion": "2.75.0",
+                    "classifiers": [
+                        "Development Status :: 4 - Beta",
+                        "Intended Audience :: Developers",
+                        "Intended Audience :: System Administrators",
+                        "Programming Language :: Python",
+                        "Programming Language :: Python :: 3",
+                        "Programming Language :: Python :: 3.7",
+                        "Programming Language :: Python :: 3.8",
+                        "Programming Language :: Python :: 3.9",
+                        "License :: OSI Approved :: MIT License"
+                    ],
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "azpycli@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/Azure/azure-cli-extensions/tree/main/src/storage-mover"
+                            }
+                        }
+                    },
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "storage-mover",
+                    "summary": "Microsoft Azure Command-Line Tools StorageMover Extension.",
+                    "version": "1.2.1"
+                },
+                "sha256Digest": "096c9b181aa1ea0f3ff84b2baa415794065f91432aae6292021ab8774e561bfd"
             }
         ],
         "storage-preview": [

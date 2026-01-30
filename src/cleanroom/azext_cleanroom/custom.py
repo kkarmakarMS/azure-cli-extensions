@@ -13,9 +13,11 @@ from knack.log import get_logger
 
 logger = get_logger(__name__)
 
+
 def collaboration_contract_list(collaboration_name: str):
     """List contracts in a collaboration."""
     print(f"Listing contracts for collaboration: {collaboration_name}")
+
 
 def collaboration_contract_show(collaboration_name: str, contract_name: str):
     """Show details of a specific contract in a collaboration."""
